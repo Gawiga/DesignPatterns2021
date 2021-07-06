@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Creational\FactoryMethod\" />
+    <ProjectReference Include="..\DesignPatterns2021\DesignPatterns2021.csproj" />
   </ItemGroup>
 
 </Project>
