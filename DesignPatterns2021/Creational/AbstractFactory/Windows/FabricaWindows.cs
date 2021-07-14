@@ -2,6 +2,7 @@
 
 namespace DesignPatterns2021.Creational.AbstractFactory
 {
+    //Concrete Factory
     public class FabricaWindows : IAbstractFactory
     {
         public IBotao CriarBotao()

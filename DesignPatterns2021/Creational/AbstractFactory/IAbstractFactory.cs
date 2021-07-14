@@ -4,6 +4,7 @@ using System.Text;
 
 namespace DesignPatterns2021.Creational.AbstractFactory
 {
+    //Abstract Factory
     public interface IAbstractFactory
     {
         public ITela CriarTela();

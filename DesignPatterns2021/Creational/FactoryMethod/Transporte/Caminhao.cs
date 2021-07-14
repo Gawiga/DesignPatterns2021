@@ -4,8 +4,6 @@ using System.Text;
 
 namespace DesignPatterns2021.Creational.FactoryMethod
 {
-    public class Caminhao : ITransporte
-    {
-
-    }
+    //Concrete Product
+    public class Caminhao : ITransporte { }
 }

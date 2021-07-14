@@ -5,6 +5,7 @@ using System.Text;
 
 namespace DesignPatterns2021.Creational.AbstractFactory
 {
+    //Concrete Factory
     public class FabricaLinux : IAbstractFactory
     {
         public IBotao CriarBotao()
