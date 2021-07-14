@@ -1,13 +1,11 @@
-﻿using System;
-
-namespace DesignPatternsExecutavel
+﻿namespace DesignPatternsExecutavel
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
-            CreationalAbstractFactory.Execute();
+            //CreationalAbstractFactory.Execute();
+            CreationalFactoryMethod.Execute();
         }
     }
 }

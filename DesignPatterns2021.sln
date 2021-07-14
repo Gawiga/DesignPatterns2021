@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns2021", "DesignPatterns2021\DesignPatterns2021.csproj", "{1FA8A192-59DE-4362-9B08-9C3C21EC7A26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattersExecutavel", "Console\DesignPattersExecutavel.csproj", "{32E02D2E-29FD-4A72-84FC-5DD5A979C2F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsExecutavel", "Console\DesignPatternsExecutavel.csproj", "{32E02D2E-29FD-4A72-84FC-5DD5A979C2F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
