@@ -2,10 +2,10 @@ namespace DesignPatterns2021.Creational.Builder
 {
     public interface IBuilder
     {
-         public void ObterForma();
-         public void AdicionarMaterial();
-         public void ColocarNoForno();
-         public void Resfriar();
-         
+        public void Reset();
+        public void ConstruirParedes();
+        public void ConstruirPortas();
+        public void ConstruirJanelas();
+        public void ConstruirTelhado();
     }
 }

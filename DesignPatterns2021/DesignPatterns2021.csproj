@@ -6,9 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Creational\Builder\" />
     <Folder Include="Creational\Singleton\" />
-    <Folder Include="Creational\Prototype\" />
     <Folder Include="Behavioral\" />
     <Folder Include="Structural\" />
   </ItemGroup>

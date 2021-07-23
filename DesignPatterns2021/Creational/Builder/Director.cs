@@ -2,14 +2,20 @@ namespace DesignPatterns2021.Creational.Builder
 {
     public class Director
     {
+        private IBuilder _builder;
 
-        private var builder;
-        public void setBuiler(IBuilder builder) {
-            this.builder = builder;
+        public IBuilder Builder
+        {
+            set { _builder = value; }
         }
-        
-        public void CriarBonecoBatman() {
 
+        public void ConstruirCasa()
+        {
+            _builder.ConstruirParedes();
+            _builder.ConstruirPortas();
+            _builder.ConstruirJanelas();
+            _builder.ConstruirTelhado();
         }
+
     }
 }
