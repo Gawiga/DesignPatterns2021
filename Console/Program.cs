@@ -6,7 +6,9 @@
         {
             //CreationalAbstractFactory.Execute();
             //CreationalFactoryMethod.Execute();
-            CreationalBuilder.Execute();
+            //CreationalBuilder.Execute();
+            //CreationalSingleton.Execute();
+            CreationalPrototype.Execute();
         }
     }
 }

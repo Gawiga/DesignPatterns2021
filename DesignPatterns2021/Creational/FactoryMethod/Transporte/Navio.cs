@@ -5,5 +5,5 @@ using System.Text;
 namespace DesignPatterns2021.Creational.FactoryMethod
 {
     //Concrete Product
-    public class Navio : ITransporte { }
+    internal class Navio : ITransporte { }
 }
