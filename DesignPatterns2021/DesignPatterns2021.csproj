@@ -7,7 +7,11 @@
 
   <ItemGroup>
     <Folder Include="Behavioral\" />
-    <Folder Include="Structural\" />
+    <Folder Include="Structural\Composite\" />
+    <Folder Include="Structural\Decorator\" />
+    <Folder Include="Structural\Facade\" />
+    <Folder Include="Structural\Flyweight\" />
+    <Folder Include="Structural\Proxy\" />
   </ItemGroup>
 
 </Project>

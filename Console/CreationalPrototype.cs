@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    public class CreationalPrototype
+    class CreationalPrototype
     {
         public static void Execute()
         {

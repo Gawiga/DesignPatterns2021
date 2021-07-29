@@ -8,7 +8,8 @@
             //CreationalFactoryMethod.Execute();
             //CreationalBuilder.Execute();
             //CreationalSingleton.Execute();
-            CreationalPrototype.Execute();
+            //CreationalPrototype.Execute();
+            StructuralAdapter.Execute();
         }
     }
 }

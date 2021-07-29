@@ -4,7 +4,7 @@ using System.Threading;
 
 namespace DesignPatternsExecutavel
 {
-    public class CreationalSingleton
+    class CreationalSingleton
     {
         public static void Execute()
         {
