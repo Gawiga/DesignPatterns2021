@@ -10,7 +10,8 @@
             //CreationalSingleton.Execute();
             //CreationalPrototype.Execute();
             //StructuralAdapter.Execute();
-            StructuralBridge.Execute();
+            //StructuralBridge.Execute();
+            StructuralComposite.Execute();
         }
     }
 }
