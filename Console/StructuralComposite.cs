@@ -5,56 +5,62 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
+    /// <summary>
+    /// Mensagem -> Nível 0
+    ///   Mensagem de Erro -> Nível 1
+    ///     Mensagem de Aviso -> Nível 2    
+    ///       Mensagem de Info -> Nível 3
+    /// </summary>
     class StructuralComposite
     {
         public static void Execute()
         {
-            string opcao = "";
-            var composite = new Composite();
-            while (opcao != "5")
-            {
-                Console.WriteLine("Qual funcionário você deseja cadastrar?" +
-               "\n1 - Desenvolvedor C#" +
-               "\n2 - Desenvolvedor JAVA" +
-               "\n3 - Gerente" +
-               "\n4 - Lista funcionários" +
-               "\n5 - Sair");
+            var mensagemInfo = new MensagemInfo("Mensagem Nível 4a");
+            var mensagemInfo2 = new MensagemInfo("Mensagem Nível 4aa");
 
-                opcao = Console.ReadLine();
+            var compositorMensagemInfo = new Mensagem("Nível 3a");
+            compositorMensagemInfo.AdicionarFilho(mensagemInfo);
+            compositorMensagemInfo.AdicionarFilho(mensagemInfo2);
 
-                if (opcao == "1")
-                {
-                    var funcionario = new DesenvolvedorJava();
-                    Console.WriteLine("Digite o nome do funcionário(a): ");
-                    var nomeFuncionario = Console.ReadLine();
-                    funcionario.Nome = nomeFuncionario;
-                    composite.AdicionarFuncionario(funcionario);
-                }
+            var mensagemAviso = new MensagemAviso("Mensagem Nível 3a");
+            var mensagemAviso2 = new MensagemAviso("Mensagem Nível 3aa");
 
-                if (opcao == "2")
-                {
-                    var funcionario = new DesenvolvedorCSharp();
-                    Console.WriteLine("Digite o nome do funcionário(a): ");
-                    var nomeFuncionario = Console.ReadLine();
-                    funcionario.Nome = nomeFuncionario;
-                    composite.AdicionarFuncionario(funcionario);
-                }
+            var compositorMensagemAviso = new Mensagem("Nível 2a");
+            compositorMensagemAviso.AdicionarFilho(compositorMensagemInfo);
+            compositorMensagemAviso.AdicionarFilho(mensagemAviso);
+            compositorMensagemAviso.AdicionarFilho(mensagemAviso2);
 
-                if (opcao == "3")
-                {
-                    var funcionario = new Gerente();
-                    Console.WriteLine("Digite o nome do funcionário(a): ");
-                    var nomeFuncionario = Console.ReadLine();
-                    funcionario.Nome = nomeFuncionario;
-                    composite.AdicionarFuncionario(funcionario);
-                }
+            var mensagemErro = new MensagemErro("Mensagem Nível 2a");
+            
+            var compositorMensagemErro = new Mensagem("Nível 1a");
+            compositorMensagemErro.AdicionarFilho(compositorMensagemAviso);
+            compositorMensagemErro.AdicionarFilho(mensagemErro);
 
-                if (opcao == "4")
-                {
-                    Console.WriteLine("Aqui estão os funcionários cadastrados");
-                    composite.ListarFuncionarios();
-                }
-            }
+            var mensagem = new Mensagem("Nível 0");
+            mensagem.AdicionarFilho(compositorMensagemErro);
+
+            var mensagemInfo3 = new MensagemInfo("Mensagem Nível 4b");
+
+            var _compositorMensagemInfo = new Mensagem("Nível 3b");
+            _compositorMensagemInfo.AdicionarFilho(mensagemInfo3);
+
+            var mensagemAviso3 = new MensagemAviso("Mensagem Nível 3b");
+            var mensagemAviso4 = new MensagemAviso("Mensagem Nível 3bb");
+
+            var _compositorMensagemAviso = new Mensagem("Nível 2b");
+            _compositorMensagemAviso.AdicionarFilho(_compositorMensagemInfo);
+            _compositorMensagemAviso.AdicionarFilho(mensagemAviso3);
+            _compositorMensagemAviso.AdicionarFilho(mensagemAviso4);
+            
+            var mensagemErro2 = new MensagemErro("Mensagem Nível 2b");
+            
+            var _compositorMensagemErro = new Mensagem("Nível 1b");
+            _compositorMensagemErro.AdicionarFilho(_compositorMensagemAviso);
+            _compositorMensagemErro.AdicionarFilho(mensagemErro2);
+
+            mensagem.AdicionarFilho(_compositorMensagemErro);
+
+            mensagem.ExibirListaNivelada(0);
         }
     }
 }

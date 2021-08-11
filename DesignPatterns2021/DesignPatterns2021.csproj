@@ -6,6 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Structural\Composite\DesenvolvedorAbstrato.cs" />
+    <Compile Remove="Structural\Composite\DesenvolvedorCSharp.cs" />
+    <Compile Remove="Structural\Composite\DesenvolvedorJava.cs" />
+    <Compile Remove="Structural\Composite\FuncionarioAbstrato.cs" />
+    <Compile Remove="Structural\Composite\Gerente.cs" />
+    <Compile Remove="Structural\Composite\IFuncionario.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Behavioral\" />
     <Folder Include="Structural\Decorator\" />
     <Folder Include="Structural\Facade\" />
