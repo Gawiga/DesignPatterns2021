@@ -11,7 +11,8 @@
             //CreationalPrototype.Execute();
             //StructuralAdapter.Execute();
             //StructuralBridge.Execute();
-            StructuralComposite.Execute();
+            //StructuralComposite.Execute();
+            StructuralDecorator.Execute();
         }
     }
 }
