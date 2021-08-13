@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <Folder Include="Behavioral\" />
-    <Folder Include="Structural\Facade\" />
     <Folder Include="Structural\Flyweight\" />
     <Folder Include="Structural\Proxy\" />
   </ItemGroup>

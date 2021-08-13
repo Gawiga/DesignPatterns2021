@@ -12,7 +12,8 @@
             //StructuralAdapter.Execute();
             //StructuralBridge.Execute();
             //StructuralComposite.Execute();
-            StructuralDecorator.Execute();
+            //StructuralDecorator.Execute();
+            StructuralFacade.Execute();
         }
     }
 }
