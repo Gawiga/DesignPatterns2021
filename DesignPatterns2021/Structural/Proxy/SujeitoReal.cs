@@ -7,7 +7,7 @@ namespace DesignPatterns2021.Structural.Proxy
     /// <summary>
     /// O Sujeito concreto contem  
     /// </summary>
-    public class Sujeito : ISujeito
+    public class SujeitoReal : ISujeito
     {
         public void Requisicao()
         {

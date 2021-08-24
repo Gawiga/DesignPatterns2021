@@ -10,8 +10,8 @@ namespace DesignPatterns2021.Structural.Proxy
         /// O CodigoCliente deveria funcionar com todos objetos 
         /// (tanto sujeitos e proxies) através da interface ISujeito para suportar
         /// sujeitos e proxies. Na vida real, entretanto, Clients na maioria das vezes
-        /// trabalhar com os sujeitos concretos. Neste caso, para implementar esse padrão mais 
-        /// facilmente, você pode extender seu proxy através da classe sujeita concreta.
+        /// trabalhar com os sujeitos reais. Neste caso, para implementar esse padrão mais 
+        /// facilmente, você pode extender seu proxy através da classe sujeito real.
         /// </summary>
         /// <param name="sujeito"></param>
         public void CodigoCliente(ISujeito sujeito)

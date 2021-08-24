@@ -12,7 +12,7 @@ namespace DesignPatternsExecutavel
             Cliente cliente = new Cliente();
 
             Console.WriteLine("Cliente: Executando o CodigoCliente com o Sujeito: ");
-            Sujeito sujeito = new Sujeito();
+            SujeitoReal sujeito = new SujeitoReal();
             cliente.CodigoCliente(sujeito);
 
             Console.WriteLine("Cliente: Executando o CodigoCliente com o Proxy: ");

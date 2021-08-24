@@ -6,11 +6,11 @@ namespace DesignPatterns2021.Structural.Proxy
 {
     public class Proxy : ISujeito
     {
-        private Sujeito _sujeito;
+        private SujeitoReal _sujeitoReal;
 
-        public Proxy(Sujeito sujeito)        
+        public Proxy(SujeitoReal sujeitoReal)        
         {
-            _sujeito = sujeito;
+            _sujeitoReal = sujeitoReal;
         }
 
         /// <summary>
@@ -22,7 +22,7 @@ namespace DesignPatterns2021.Structural.Proxy
         {
             if (VerificaAcesso())
             {
-                _sujeito.Requisicao();
+                _sujeitoReal.Requisicao();
 
 
             }
