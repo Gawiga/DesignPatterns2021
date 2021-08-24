@@ -14,7 +14,8 @@
             //StructuralComposite.Execute();
             //StructuralDecorator.Execute();
             //StructuralFacade.Execute();
-            StructuralFlyweight.Execute();
+            //StructuralFlyweight.Execute();
+            StructuralProxy.Execute();
         }
     }
 }
