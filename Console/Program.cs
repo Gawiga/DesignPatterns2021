@@ -15,7 +15,9 @@
             //StructuralDecorator.Execute();
             //StructuralFacade.Execute();
             //StructuralFlyweight.Execute();
-            StructuralProxy.Execute();
+            //StructuralProxy.Execute();
+            //BehavioralChainOfResponsability.Execute();
+            BehavioralCommand.Execute();
         }
     }
 }
