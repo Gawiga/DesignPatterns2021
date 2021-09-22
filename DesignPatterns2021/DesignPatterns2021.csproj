@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <Folder Include="Behavioral\ChainOfResponsability\" />
-    <Folder Include="Behavioral\Command\" />
   </ItemGroup>
 
 </Project>
