@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <Folder Include="Behavioral\ChainOfResponsability\" />
+    <Folder Include="Behavioral\Observer\" />
   </ItemGroup>
 
 </Project>

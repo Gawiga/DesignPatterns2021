@@ -17,7 +17,8 @@
             //StructuralFlyweight.Execute();
             //StructuralProxy.Execute();
             //BehavioralChainOfResponsability.Execute();
-            BehavioralCommand.Execute();
+            //BehavioralCommand.Execute();
+            BehavioralStrategy.Execute();
         }
     }
 }

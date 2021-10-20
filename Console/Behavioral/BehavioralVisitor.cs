@@ -6,5 +6,16 @@ namespace DesignPatternsExecutavel
 {
     class BehavioralVisitor
     {
+        public static void Execute()
+        {
+            var opcao = "";
+
+            while (opcao != "9")
+            {
+                Console.WriteLine("");
+                opcao = Console.ReadLine();
+
+            }
+        }
     }
 }
