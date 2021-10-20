@@ -7,7 +7,7 @@ namespace DesignPatterns2021.Behavioral.Strategy
     /// <summary>
     /// Context
     /// </summary>
-    public interface RealizarPedido
+    public interface Pedido
     {
         public static void ProcessarOrder(Pagamento pagamento)
         {

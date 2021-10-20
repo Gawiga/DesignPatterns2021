@@ -16,15 +16,15 @@ namespace DesignPatternsExecutavel
                 opcao = Console.ReadLine();
                 if (opcao == "1")
                 {
-                    RealizarPedido.ProcessarOrder(new CartaoDeCredito());
+                    Pedido.ProcessarOrder(new CartaoDeCredito());
                 }
                 if (opcao == "2")
                 {
-                    RealizarPedido.ProcessarOrder(new Boleto());
+                    Pedido.ProcessarOrder(new Boleto());
                 }
                 if (opcao == "3")
                 {
-                    RealizarPedido.ProcessarOrder(new Pix());
+                    Pedido.ProcessarOrder(new Pix());
                 }
             }
 
