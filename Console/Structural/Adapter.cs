@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class StructuralAdapter
+    class Adapter
     {
         public static void Execute()
         {
@@ -25,7 +25,7 @@ namespace DesignPatternsExecutavel
 
                 if (opcao == "2")
                 {
-                    var geladeira = new ProdutoService(new Adapter(new AdaptadorTomadaAmericana()));
+                    var geladeira = new ProdutoService(new DesignPatterns2021.Structural.Adapter.Adapter(new AdaptadorTomadaAmericana()));
                     var result = geladeira.EnviarProduto();
                     Console.WriteLine(result);
                 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class BehavioralTemplateMethod
+    class Memento
     {
         public static void Execute()
         {

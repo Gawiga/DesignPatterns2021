@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class StructuralFlyweight
+    class Flyweight
     {
         public static void Execute()
         {

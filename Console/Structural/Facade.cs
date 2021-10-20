@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class StructuralFacade
+    class Facade
     {
         public static void Execute()
         {

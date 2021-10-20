@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class BehavioralMediator
+    class Observer
     {
         public static void Execute()
         {

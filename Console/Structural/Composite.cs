@@ -11,7 +11,7 @@ namespace DesignPatternsExecutavel
     ///     Mensagem de Aviso -> Nível 2    
     ///       Mensagem de Info -> Nível 3
     /// </summary>
-    class StructuralComposite
+    class Composite
     {
         public static void Execute()
         {

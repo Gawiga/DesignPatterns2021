@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class StructuralDecorator
+    class Decorator
     {
         public static void Execute()
         {

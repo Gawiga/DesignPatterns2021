@@ -3,7 +3,7 @@ using System;
 
 namespace DesignPatternsExecutavel
 {
-    class CreationalBuilder
+    class Builder
     {
         public static void Execute()
         {

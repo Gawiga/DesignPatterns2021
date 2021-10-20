@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class BehavioralStrategy
+    class Strategy
     {
         public static void Execute()
         {

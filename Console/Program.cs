@@ -18,7 +18,7 @@
             //StructuralProxy.Execute();
             //BehavioralChainOfResponsability.Execute();
             //BehavioralCommand.Execute();
-            BehavioralStrategy.Execute();
+            Strategy.Execute();
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class BehavioralVisitor
+    class TemplateMethod
     {
         public static void Execute()
         {

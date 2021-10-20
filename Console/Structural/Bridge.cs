@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class StructuralBridge
+    class Bridge
     {
         public static void Execute()
         {

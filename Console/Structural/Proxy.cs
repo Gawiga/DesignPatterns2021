@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class StructuralProxy
+    class Proxy
     {
         public static void Execute()
         {
@@ -16,9 +16,8 @@ namespace DesignPatternsExecutavel
             cliente.CodigoCliente(sujeito);
 
             Console.WriteLine("Cliente: Executando o CodigoCliente com o Proxy: ");
-            Proxy proxy = new Proxy(sujeito);
+            DesignPatterns2021.Structural.Proxy.Proxy proxy = new DesignPatterns2021.Structural.Proxy.Proxy(sujeito);
             cliente.CodigoCliente(proxy);
-
         }
     }
 }

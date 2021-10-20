@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class CreationalFactoryMethod
+    class FactoryMethod
     {
         public static void Execute()
         {
@@ -18,7 +18,7 @@ namespace DesignPatternsExecutavel
 
                 valor = Console.ReadLine();
 
-                FactoryMethod _fabrica;
+                DesignPatterns2021.Creational.FactoryMethod.FactoryMethod _fabrica;
 
                 if (valor.ToString() == "1")
                 {
@@ -42,7 +42,7 @@ namespace DesignPatternsExecutavel
             }
         }
 
-        private static void RealizarEntrega(FactoryMethod _fabrica, string endereco)
+        private static void RealizarEntrega(DesignPatterns2021.Creational.FactoryMethod.FactoryMethod _fabrica, string endereco)
         {
             var transporte = _fabrica.ObterTransporte();
             Console.WriteLine("A sua encomenda será entregue de " + transporte.GetType().Name);

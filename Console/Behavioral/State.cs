@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class BehavioralObserver
+    class State
     {
     }
 }

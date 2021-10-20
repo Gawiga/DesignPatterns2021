@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class CreationalAbstractFactory
+    class AbstractFactory
     {
         public static void Execute()
         {

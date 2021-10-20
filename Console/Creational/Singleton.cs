@@ -4,7 +4,7 @@ using System.Threading;
 
 namespace DesignPatternsExecutavel
 {
-    class CreationalSingleton
+    class Singleton
     {
         public static void Execute()
         {
@@ -35,7 +35,7 @@ namespace DesignPatternsExecutavel
 
         public static void ConectarBanco(string value)
         {
-            Singleton singleton = Singleton.ObterInstancia(value);
+            DesignPatterns2021.Creational.Singleton.Singleton singleton = DesignPatterns2021.Creational.Singleton.Singleton.ObterInstancia(value);
             Console.WriteLine(singleton.Valor);
         }
     }

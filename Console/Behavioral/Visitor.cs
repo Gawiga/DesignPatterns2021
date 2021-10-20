@@ -4,18 +4,18 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class BehavioralChainOfResponsability
+    class Visitor
     {
         public static void Execute()
         {
-            Console.WriteLine("");
-            var opcao = Console.ReadLine();
+            var opcao = "";
 
             while (opcao != "9")
             {
+                Console.WriteLine("");
+                opcao = Console.ReadLine();
 
             }
-
         }
     }
 }
