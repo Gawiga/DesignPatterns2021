@@ -4,21 +4,22 @@
     {
         static void Main(string[] args)
         {
-            //CreationalAbstractFactory.Execute();
-            //CreationalFactoryMethod.Execute();
-            //CreationalBuilder.Execute();
-            //CreationalSingleton.Execute();
-            //CreationalPrototype.Execute();
-            //StructuralAdapter.Execute();
-            //StructuralBridge.Execute();
-            //StructuralComposite.Execute();
-            //StructuralDecorator.Execute();
-            //StructuralFacade.Execute();
-            //StructuralFlyweight.Execute();
-            //StructuralProxy.Execute();
-            //BehavioralChainOfResponsability.Execute();
-            //BehavioralCommand.Execute();
-            Strategy.Execute();
+            //AbstractFactory.Execute();
+            //FactoryMethod.Execute();
+            //Builder.Execute();
+            //Singleton.Execute();
+            //Prototype.Execute();
+            //Adapter.Execute();
+            //Bridge.Execute();
+            //Composite.Execute();
+            //Decorator.Execute();
+            //Facade.Execute();
+            //Flyweight.Execute();
+            //Proxy.Execute();
+            //ChainOfResponsability.Execute();
+            //Command.Execute();
+            //Strategy.Execute();
+            Observer.Execute();
         }
     }
 }

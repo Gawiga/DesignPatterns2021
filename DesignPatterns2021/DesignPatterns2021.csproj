@@ -16,7 +16,12 @@
 
   <ItemGroup>
     <Folder Include="Behavioral\ChainOfResponsability\" />
-    <Folder Include="Behavioral\Observer\" />
+    <Folder Include="Behavioral\Iterator\" />
+    <Folder Include="Behavioral\Mediator\" />
+    <Folder Include="Behavioral\Memento\" />
+    <Folder Include="Behavioral\Visitor\" />
+    <Folder Include="Behavioral\TemplateMethod\" />
+    <Folder Include="Behavioral\State\" />
   </ItemGroup>
 
 </Project>
