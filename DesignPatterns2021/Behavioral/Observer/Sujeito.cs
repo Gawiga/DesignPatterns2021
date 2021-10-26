@@ -22,7 +22,7 @@ namespace DesignPatterns2021.Behavioral.Observer
         {
             foreach (var item in observadores)
             {
-                item.Atualizar();
+                item.EmitirEstado();
             }
         }
     }

@@ -11,6 +11,6 @@ namespace DesignPatterns2021.Behavioral.Observer
     /// </summary>
     public interface Observador
     {
-        public void Atualizar();
+        public void EmitirEstado();
     }
 }

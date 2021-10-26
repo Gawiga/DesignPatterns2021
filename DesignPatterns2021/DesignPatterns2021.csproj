@@ -15,6 +15,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Behavioral\Observer\Sujeito.cs~RF1ffc221.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Behavioral\ChainOfResponsability\" />
     <Folder Include="Behavioral\Iterator\" />
     <Folder Include="Behavioral\Mediator\" />

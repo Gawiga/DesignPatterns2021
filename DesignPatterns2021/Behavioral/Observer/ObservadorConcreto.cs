@@ -16,7 +16,7 @@ namespace DesignPatterns2021.Behavioral.Observer
             this.nome = nome;
         }
 
-        public void Atualizar()
+        public void EmitirEstado()
         {
             estadoObservador = sujeito.EstadoSujeito;
             Console.WriteLine("Sujeito {0} Estado {1} ", nome, estadoObservador);
