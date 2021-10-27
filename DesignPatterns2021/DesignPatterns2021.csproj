@@ -19,7 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Behavioral\ChainOfResponsability\" />
     <Folder Include="Behavioral\Iterator\" />
     <Folder Include="Behavioral\Mediator\" />
     <Folder Include="Behavioral\Memento\" />

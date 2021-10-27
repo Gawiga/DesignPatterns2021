@@ -19,7 +19,8 @@
             //ChainOfResponsability.Execute();
             //Command.Execute();
             //Strategy.Execute();
-            Observer.Execute();
+            //Observer.Execute();
+            ChainOfResponsability.Execute();
         }
     }
 }
