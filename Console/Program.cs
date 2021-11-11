@@ -16,11 +16,11 @@
             //Facade.Execute();
             //Flyweight.Execute();
             //Proxy.Execute();
-            //ChainOfResponsability.Execute();
-            //Command.Execute();
             //Strategy.Execute();
             //Observer.Execute();
-            ChainOfResponsability.Execute();
+            //ChainOfResponsability.Execute();
+            //Command.Execute();
+            Iterator.Execute();
         }
     }
 }
