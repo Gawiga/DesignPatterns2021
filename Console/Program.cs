@@ -20,7 +20,8 @@
             //Observer.Execute();
             //ChainOfResponsability.Execute();
             //Command.Execute();
-            Iterator.Execute();
+            //Iterator.Execute();
+            Mediator.Execute();
         }
     }
 }
