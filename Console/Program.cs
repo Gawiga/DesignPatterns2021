@@ -21,7 +21,8 @@
             //ChainOfResponsability.Execute();
             //Command.Execute();
             //Iterator.Execute();
-            Mediator.Execute();
+            //Mediator.Execute();
+            Memento.Execute();
         }
     }
 }

@@ -19,7 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Behavioral\Memento\" />
     <Folder Include="Behavioral\Visitor\" />
     <Folder Include="Behavioral\TemplateMethod\" />
     <Folder Include="Behavioral\State\" />
