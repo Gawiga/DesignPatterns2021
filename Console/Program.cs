@@ -22,7 +22,8 @@
             //Command.Execute();
             //Iterator.Execute();
             //Mediator.Execute();
-            Memento.Execute();
+            //Memento.Execute();
+            State.Execute();
         }
     }
 }
