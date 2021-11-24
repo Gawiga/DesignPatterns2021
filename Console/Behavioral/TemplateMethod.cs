@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPatterns2021.Behavioral.TemplateMethod;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -12,9 +13,14 @@ namespace DesignPatternsExecutavel
 
             while (opcao != "9")
             {
-                Console.WriteLine("");
+                Console.WriteLine("\nDigite 9 para sair!");
                 opcao = Console.ReadLine();
 
+                var pratoA = new PratoA();
+                var pratoB = new PratoB();
+
+                Garcom.ServirPrato(pratoA);
+                Garcom.ServirPrato(pratoB);
             }
         }
     }

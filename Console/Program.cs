@@ -23,7 +23,8 @@
             //Iterator.Execute();
             //Mediator.Execute();
             //Memento.Execute();
-            State.Execute();
+            //State.Execute();
+            TemplateMethod.Execute();
         }
     }
 }
