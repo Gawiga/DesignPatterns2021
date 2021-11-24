@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class Visitor : IPadrao
+    class Interpreter : IPadrao
     {
         public void Execute()
         {
@@ -12,7 +12,7 @@ namespace DesignPatternsExecutavel
 
             while (opcao != "9")
             {
-                Console.WriteLine("Visitor!");
+                Console.WriteLine("");
                 opcao = Console.ReadLine();
 
             }
