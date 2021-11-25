@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class Facade
+    class Facade : IPadrao
     {
-        public static void Execute()
+        public void Execute()
         {
             // fachada
             HipotecaFachada hipotecaFachada = new HipotecaFachada();
@@ -16,7 +16,6 @@ namespace DesignPatternsExecutavel
             bool elegivel = hipotecaFachada.clienteEhElegivelParaHipoteca(cliente, 12000);
 
             Console.WriteLine("\nCliente " + cliente.Nome + " foi " + (elegivel ? "Aprovado!" : "Reprovado"));
-
         }
     }
 }

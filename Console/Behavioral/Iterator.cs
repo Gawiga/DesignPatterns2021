@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class Iterator
+    class Iterator : IPadrao
     {
-        public static void Execute()
+        public void Execute()
         {
             var opcao = "";
             var palavras = new PalavrasCollection();

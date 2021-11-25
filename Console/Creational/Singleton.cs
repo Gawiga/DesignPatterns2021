@@ -4,9 +4,9 @@ using System.Threading;
 
 namespace DesignPatternsExecutavel
 {
-    class Singleton
+    class Singleton : IPadrao
     {
-        public static void Execute()
+        public void Execute()
         {
             Console.WriteLine(
                 "{0}\n{1}\n\n{2}\n",

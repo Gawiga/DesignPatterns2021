@@ -5,16 +5,16 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    /// <summary>
-    /// Mensagem -> Nível 0
-    ///   Mensagem de Erro -> Nível 1
-    ///     Mensagem de Aviso -> Nível 2    
-    ///       Mensagem de Info -> Nível 3
-    /// </summary>
-    class Composite
+    class Composite : IPadrao
     {
-        public static void Execute()
+        public void Execute()
         {
+            /// <summary>
+            /// Mensagem -> Nível 0
+            ///   Mensagem de Erro -> Nível 1
+            ///     Mensagem de Aviso -> Nível 2    
+            ///       Mensagem de Info -> Nível 3
+            /// </summary>
             var mensagemInfo = new MensagemInfo("Mensagem Nível 4a");
             var mensagemInfo2 = new MensagemInfo("Mensagem Nível 4aa");
 
@@ -62,5 +62,6 @@ namespace DesignPatternsExecutavel
 
             mensagem.ExibirListaNivelada(0);
         }
+
     }
 }

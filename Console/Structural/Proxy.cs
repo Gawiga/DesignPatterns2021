@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class Proxy
+    class Proxy : IPadrao
     {
-        public static void Execute()
+        public void Execute()
         {
             Cliente cliente = new Cliente();
 

@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class Flyweight
+    class Flyweight : IPadrao
     {
-        public static void Execute()
+        public void Execute()
         {
             // construir um documento com texto
             string documento = "AAZZBBZB";
@@ -27,7 +27,6 @@ namespace DesignPatternsExecutavel
             }
 
             Console.ReadKey();
-
         }
     }
 }

@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class Strategy
+    class Strategy : IPadrao
     {
-        public static void Execute()
+        public void Execute()
         {
             var opcao = "";
             while (opcao != "9")

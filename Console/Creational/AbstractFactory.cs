@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class AbstractFactory
+    class AbstractFactory : IPadrao
     {
-        public static void Execute()
+        public void Execute()
         {
             string valor = "";
             while (valor != "3") 

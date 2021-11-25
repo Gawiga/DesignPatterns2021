@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class Prototype
+    class Prototype : IPadrao
     {
-        public static void Execute()
+        public void Execute()
         {
             string opcao;
             do

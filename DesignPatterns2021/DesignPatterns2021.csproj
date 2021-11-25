@@ -18,8 +18,4 @@
     <None Remove="Behavioral\Observer\Sujeito.cs~RF1ffc221.TMP" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Behavioral\Interpreter\" />
-  </ItemGroup>
-
 </Project>

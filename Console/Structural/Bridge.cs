@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class Bridge
+    class Bridge : IPadrao
     {
-        public static void Execute()
+        public void Execute()
         {
             string opcao = "";
             string opcao2 = "";

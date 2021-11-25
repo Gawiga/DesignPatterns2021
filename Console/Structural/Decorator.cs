@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class Decorator
+    class Decorator : IPadrao
     {
-        public static void Execute()
+        public void Execute()
         {
             var livro = new Livro("O pequeno principe", 10);
             livro.Exibir();

@@ -3,9 +3,9 @@ using System;
 
 namespace DesignPatternsExecutavel
 {
-    class Builder
+    class Builder : IPadrao
     {
-        public static void Execute()
+        public void Execute()
         {
             string valor = "";
 

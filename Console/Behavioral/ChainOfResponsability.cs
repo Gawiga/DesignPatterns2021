@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class ChainOfResponsability
+    class ChainOfResponsability : IPadrao
     {
-        public static void Execute()
+        public void Execute()
         {
             var opcao = "";
 

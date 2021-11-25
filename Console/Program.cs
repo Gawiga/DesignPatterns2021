@@ -6,8 +6,7 @@ namespace DesignPatternsExecutavel
     {
         static void Main(string[] args)
         {
-            TemplateMethod.Execute();
-            //EscolherPadrao();
+            EscolherPadrao();
         }
 
         static void EscolherPadrao()
