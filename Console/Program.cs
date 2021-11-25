@@ -20,14 +20,29 @@ namespace DesignPatternsExecutavel
             }
             else
             {
-                ValorInvalido();
+                if (entrada.ToUpper() != "S")
+                {
+                    ValorInvalido();
+                }
             }
         }
 
         private static string MensagemBoasVindas()
         {
-            string mensagemBoasVindas = @"--- BEM VINDO AO DESIGN PATTERNS 2021 ---
-BEHAVIORAL:
+            string mensagemBoasVindas = @"---------------------------------- BEM VINDO ----------------------------------
+
+  _____              _                 _____        _    _                            ___    ___   ___  __  
+ |  __ \            (_)               |  __ \      | |  | |                          |__ \  / _ \ |__ \/_ | 
+ | |  | |  ___  ___  _   __ _  _ __   | |__) |__ _ | |_ | |_  ___  _ __  _ __   ___     ) || | | |   ) || | 
+ | |  | | / _ \/ __|| | / _` || '_ \  |  ___// _` || __|| __|/ _ \| '__|| '_ \ / __|   / / | | | |  / / | | 
+ | |__| ||  __/\__ \| || (_| || | | | | |   | (_| || |_ | |_|  __/| |   | | | |\__ \  / /_ | |_| | / /_ | | 
+ |_____/  \___||___/|_| \__, ||_| |_| |_|    \__,_| \__| \__|\___||_|   |_| |_||___/ |____| \___/ |____||_| 
+                         __/ |                                                                             
+                        |___/                                                                              
+
+ESCOLHA SEU PADRÃO
+
+> BEHAVIORAL <
 ChainOfResponsability = 1
 Command = 2
 Interpreter = 3
@@ -40,14 +55,14 @@ Strategy = 9
 TemplateMethod = 10
 Visitor = 11
 
-CREATIONAL:
+> CREATIONAL <
 AbstractFactory = 12
 Builder = 13
 FactoryMethod = 14
 Prototype = 15
 Singleton = 16
 
-STRUCTURAL
+> STRUCTURAL <
 Adapter = 17
 Bridge = 18
 Composite = 19
@@ -56,7 +71,7 @@ Facade = 21
 Flyweight = 22
 Proxy = 23
                 
-DIGITE O NUMERO QUE DESEJA TESTAR: ";
+DIGITE O NUMERO QUE DESEJA TESTAR OU (S) PARA SAIR: ";
             Console.WriteLine(mensagemBoasVindas);
             var entrada = Console.ReadLine();
             return entrada;
@@ -70,6 +85,9 @@ DIGITE O NUMERO QUE DESEJA TESTAR: ";
             {
                 var classe = (IPadrao)Activator.CreateInstance(tipoClasse);
                 classe.Execute();
+                
+                //redundance
+                EscolherPadrao();
             }
             catch (Exception)
             {
