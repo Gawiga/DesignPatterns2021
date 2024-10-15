@@ -83,7 +83,7 @@ DIGITE O NUMERO QUE DESEJA TESTAR OU (S) PARA SAIR: ";
             var tipoClasse = Type.GetType("DesignPatternsExecutavel." + padrao.ToString());
             try
             {
-                var classe = (IPadrao)Activator.CreateInstance(tipoClasse);
+                var classe = (IPadraoExecutavel)Activator.CreateInstance(tipoClasse);
                 classe.Execute();
                 
                 //redundance

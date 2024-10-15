@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class Mediator : IPadrao
+    class Mediator : IPadraoExecutavel
     {
         public void Execute()
         {

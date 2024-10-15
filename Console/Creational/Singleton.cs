@@ -4,7 +4,7 @@ using System.Threading;
 
 namespace DesignPatternsExecutavel
 {
-    class Singleton : IPadrao
+    class Singleton : IPadraoExecutavel
     {
         public void Execute()
         {

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class Decorator : IPadrao
+    class Decorator : IPadraoExecutavel
     {
         public void Execute()
         {

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class ChainOfResponsability : IPadrao
+    class ChainOfResponsability : IPadraoExecutavel
     {
         public void Execute()
         {

@@ -3,7 +3,7 @@ using System;
 
 namespace DesignPatternsExecutavel
 {
-    class Builder : IPadrao
+    class Builder : IPadraoExecutavel
     {
         public void Execute()
         {

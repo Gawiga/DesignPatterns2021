@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPatternsExecutavel
 {
-    class Flyweight : IPadrao
+    class Flyweight : IPadraoExecutavel
     {
         public void Execute()
         {
